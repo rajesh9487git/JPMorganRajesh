@@ -21,11 +21,19 @@ public Response postComment(String endpoint, MakeComment makeComment){
             .extract().response();
 }
 
+    public Response postComment(String endpoint){
+
+        return RestAssured.given().contentType("application/json; charset=UTF-8").log().all().when().post(endpoint).then().log().all()
+                .extract().response();
+    }
+
 
 public Response GetRequest(String endpoint){
 
     return RestAssured.given().contentType("application/json; charset=UTF-8").log().all().when().get(endpoint).then().log().all()
             .extract().response();
 }
+
+
 
 }

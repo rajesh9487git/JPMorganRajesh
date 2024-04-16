@@ -75,5 +75,15 @@ public class MakeComments {
 
     }
 
+    public void makeCommentWithoutPayload(String endpoint){
+
+        resp=restAssuredAPI.postComment(endpoint);
+    }
+
+public void validateStatusCode(int statusCode){
+
+    resp.then().log().all().assertThat().statusCode(statusCode);
+
+}
 
 }

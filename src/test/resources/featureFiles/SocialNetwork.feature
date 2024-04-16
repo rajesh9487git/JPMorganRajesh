@@ -20,6 +20,7 @@ Feature: Social Network functionality
     And I copy the userslist to a json file
 
 
+
 #   In real API multiple postive and negative scenarios can be designed such as following
 #   Scenarios related to correct and incorrect authentications for creating post, making pots and fetching list of users`
 #   Passing valid and invalid tokens for creating post, making pots and fetching list of users`
@@ -32,6 +33,7 @@ Feature: Social Network functionality
 #  We can pass the values/parameters from the feature file itself, but to demonstrate different
 #  approaches , I have passed the values from feature file and from json file also
 #  Everything will be logged in the console
+#  we can also write separate feature files and separate step def files for multiple scenarios
 
 
 
