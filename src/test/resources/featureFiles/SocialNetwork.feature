@@ -34,6 +34,8 @@ Feature: Social Network functionality
 #  approaches , I have passed the values from feature file and from json file also
 #  Everything will be logged in the console
 #  we can also write separate feature files and separate step def files for multiple scenarios
+#  Also we can have tags for smoke test, regression etc
+
 
 
 

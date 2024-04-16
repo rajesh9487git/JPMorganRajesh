@@ -62,8 +62,11 @@ public class MakeComments {
 
         JsonPath js = new JsonPath(resp.asString());
 
-      // this assertion fails as the ID we passed and the ID it has in the response is different, hence commented to
+        // This method will assert all the values from the response body
+      // this assertion will fail as the ID we passed and the ID it has in the response is different, hence commented to
         // run the test without stopping
+
+        // this method will assert the values from the response
 
             assertAll(
                     ()-> assertEquals(makeComment1.getPostId(), js.getInt("postId")),
