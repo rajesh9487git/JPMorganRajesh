@@ -26,10 +26,12 @@ Feature: Social Network functionality
 #  We can create scenarios based on valid and invalid payloads
 #  Trying to make comment on a invalid ID etc
 #  Trying to access list of user with invalid credentials etc
+#  Also we can check the data flow
 
 #  In this FW I have implemented Spring boot
 #  We can pass the values/parameters from the feature file itself, but to demonstrate different
 #  approaches , I have passed the values from feature file and from json file also
+#  Everything will be logged in the console
 
 
 
