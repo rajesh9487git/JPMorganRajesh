@@ -10,4 +10,8 @@ public class RunConfiguration {
 
     @Value("${app.url}")
     private String appUrl;
+
+    public String getAppUrl() {
+        return appUrl;
+    }
 }
