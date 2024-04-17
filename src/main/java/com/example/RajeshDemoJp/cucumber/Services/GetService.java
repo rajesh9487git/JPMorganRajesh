@@ -36,7 +36,7 @@ public class GetService {
     public void validateGetResponse(){
 
             resp.then().assertThat().statusCode(200);
-
+// just validating first value from the list for demo, in real API the first value might change and this may not work.
             JsonPath js = new JsonPath(resp.asString());
             String firstElemeneName = js.get("[0].name");
             assertEquals("Leanne Graham",firstElemeneName );
